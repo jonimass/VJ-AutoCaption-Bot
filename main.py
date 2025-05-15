@@ -4,10 +4,10 @@
 
 import pyrogram, os, asyncio
 
-app_id = int(os.environ.get("app_id", ""))
-api_hash = os.environ.get("api_hash", "")
-bot_token = os.environ.get("bot_token", "")
-custom_caption = os.environ.get("custom_caption", "`{file_name}`\n\n**Powered By - @VJ_Botz**") # Here You Can Give Anything, if You Want Real File Name Then Use {file_name}
+app_id = int(os.environ.get("app_id", "28161954"))
+api_hash = os.environ.get("api_hash", "959e221b1eadb259c4156b1a18d066b2")
+bot_token = os.environ.get("bot_token", "8132121324:AAFU4hYza7yEw_vPA23j-_OoYWAxgR66r10")
+custom_caption = os.environ.get("custom_caption", "`{file_name}`\n\n**Powered By - @DM_LinkZzz**") # Here You Can Give Anything, if You Want Real File Name Then Use {file_name}
 
 AutoCaptionBotV1 = pyrogram.Client(name="AutoCaptionBotV1", api_id=app_id, api_hash=api_hash, bot_token=bot_token)
 
@@ -15,11 +15,11 @@ start_message = """
 <b>👋Hello {}</b>
 <b>I am an AutoCaption bot</b>
 <b>All you have to do is to add me to your channel as admin and I will show you my power</b>
-<b>@VJ_Botz</b>"""
+<b>@DM_LinkZzz</b>"""
 
 about_message = """
-<b>• Name : <a href=https://t.me/VJ_Botz>VJ AutoCaption</a></b>
-<b>• Developer : <a href=https://t.me/VJ_Botz>[VJ UPDATES]</a></b>
+<b>• Name : <a href=https://t.me/DM_LinkZzz>VJ AutoCaption</a></b>
+<b>• Developer : <a href=https://t.me/DM_LinkZzz>[VJ UPDATES]</a></b>
 <b>• Language : Python3</b>
 <b>• Library : Pyrogram v{version}</b>
 <b>• Updates : <a href=https://t.me/VJ_Botz>Click Here</a></b>
